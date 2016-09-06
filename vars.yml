@@ -1,0 +1,12 @@
+---
+#hostname
+server_hostname: ashrm.in
+#user of the server
+user_name: nikitph 
+#Password for the server user, currently: enferno
+password: KJqBrYZ4Hvqdk
+#project root will be  /home/{{user_name}}/{{server_hostname}} by convention 
+
+enferno_port: 8000
+#put your enferno App git repository here
+git_repo: https://github.com/nikitph/Ashrm.git
