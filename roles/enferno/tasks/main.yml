@@ -17,8 +17,5 @@
   file: path=/home/{{user_name}}/bin/enferno.sh state=touch mode='0771'
   notify: restart enferno
   
-- name: start api
-  file: path=/home/{{user_name}}/bin/api.sh state=touch mode='0771'
-  notify: restart enferno
 
 
